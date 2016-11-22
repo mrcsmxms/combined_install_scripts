@@ -14,7 +14,7 @@ echo "
   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
                         // github.com/mrcsmxms
 " 
-
+sudo apt-get update
 sudo apt-get install libpcap-dev
 cd
 cd /home/pi/HAP-NodeJS/
