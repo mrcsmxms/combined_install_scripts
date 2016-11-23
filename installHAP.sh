@@ -23,8 +23,9 @@ node -v
 npm -v
 sudo npm install -g node-gyp
 sudo npm install -g forever
+cd /home/pi/
 sudo git clone https://github.com/KhaosT/HAP-NodeJS.git
-cd HAP-NodeJS
+cd /home/pi/HAP-NodeJS/
 sudo npm install node-persist
 sudo npm rebuild
 sudo npm install debug mdns fast-srp-hap ed25519 buffer-shims curve25519-n ip wiring-pi python-shell
